@@ -526,16 +526,15 @@ def generate(text):
 			i=i.lower()
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
-				results.append(i+"098")
 				results.append(i+"12345")
 				results.append(i+"1234")
 			else:
 				results.append(i+"123")
-				results.append(i+"098")
 				results.append(i+"1234")
 				results.append(i+"12345")
 				results.append(i)
 				if "indonesia" in ips:
+					results.append("doraemon")
 					results.append("corona")
 					results.append("love123")
 					results.append("cintaku")
